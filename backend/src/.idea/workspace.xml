@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d433f79-d6a6-4653-addf-55f0f5883d49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djreact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djreact/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/components/Form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/containers/ArticleDetailView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/containers/ArticleDetailView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/containers/ArticleListView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/containers/ArticleListView.js" afterDir="false" />

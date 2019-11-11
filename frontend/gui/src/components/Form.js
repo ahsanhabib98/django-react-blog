@@ -29,15 +29,21 @@ class CustomForm extends React.Component {
         }
     }
 
+    // handleChange(event) {
+    //     this.setState({
+    //         [event.target.name]: event.target.value
+    //     });
+    // }
+
     render() {
     return (
       <div>
         <Form onSubmit={(event) => this.handleFormSubmit(event, this.props.requestType, this.props.articleID )}>
           <Form.Item label="Title" >
-            <Input value={this.props.title} name="title" placeholder="Put a title here" />
+            <Input type="text" name="title" placeholder="Put a title here" />
           </Form.Item>
           <Form.Item label="Content">
-            <TextArea value={this.props.content} name="content" placeholder="Enter some content ..." />
+            <TextArea type="text" name="content" placeholder="Enter some content ..." />
           </Form.Item>
           <Form.Item>
             <Button type="primary" htmlType="submit">{this.props.binText}</Button>
