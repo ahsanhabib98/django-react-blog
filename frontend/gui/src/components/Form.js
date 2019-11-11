@@ -1,11 +1,11 @@
 import React from 'react';
 import { Form, Input, Button } from 'antd';
+import TextArea from "antd/es/input/TextArea";
 
 import axios from 'axios';
 
 class CustomForm extends React.Component {
     handleFormSubmit = (event, requestType, articleID) => {
-        event.preventDefault();
         const title = event.target.elements.title.value;
         const content = event.target.elements.content.value;
         
@@ -18,12 +18,14 @@ class CustomForm extends React.Component {
                     .then(res => console.log(res))
                     .catch(error => console.err(error));
             case 'put':
-                return axios.put(`http://127.0.0.1:8000/api/${articleID}`, {
+                return axios.put(`http://127.0.0.1:8000/api/${articleID}/`, {
                     title: title,
                     content: content
                 })
                     .then(res => console.log(res))
                     .catch(error => console.err(error));
+            default:
+                return false
         }
     }
 
@@ -32,10 +34,10 @@ class CustomForm extends React.Component {
       <div>
         <Form onSubmit={(event) => this.handleFormSubmit(event, this.props.requestType, this.props.articleID )}>
           <Form.Item label="Title" >
-            <Input name="title" placeholder="Put a title here" />
+            <Input value={this.props.title} name="title" placeholder="Put a title here" />
           </Form.Item>
           <Form.Item label="Content">
-            <Input name="content" placeholder="Enter some content ..." />
+            <TextArea value={this.props.content} name="content" placeholder="Enter some content ..." />
           </Form.Item>
           <Form.Item>
             <Button type="primary" htmlType="submit">{this.props.binText}</Button>

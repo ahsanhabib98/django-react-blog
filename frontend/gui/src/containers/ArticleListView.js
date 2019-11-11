@@ -29,6 +29,8 @@ class ArticleList extends React.Component {
                     requestType="post"
                     articleID={null}
                     binText="Create"
+                    title={null}
+                    content={null}
                 />
             </div>
         )
