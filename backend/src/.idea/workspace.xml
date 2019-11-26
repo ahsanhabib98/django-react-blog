@@ -2,96 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d433f79-d6a6-4653-addf-55f0f5883d49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/alternate-renderers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/components/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/components/Provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/components/connectAdvanced.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/connect/connect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/connect/mapDispatchToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/connect/mapStateToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/connect/mergeProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/connect/selectorFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/connect/verifySubselectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/connect/wrapMapToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/hooks/useDispatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/hooks/useReduxContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/hooks/useSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/hooks/useStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/Subscription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/isPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/reactBatchedUpdates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/reactBatchedUpdates.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/shallowEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/verifyPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/es/utils/wrapActionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/alternate-renderers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/components/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/components/Provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/components/connectAdvanced.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/connect/connect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/connect/mapDispatchToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/connect/mapStateToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/connect/mergeProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/connect/selectorFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/connect/verifySubselectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/connect/wrapMapToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/hooks/useDispatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/hooks/useReduxContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/hooks/useSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/hooks/useStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/Subscription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/isPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/reactBatchedUpdates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/reactBatchedUpdates.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/shallowEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/useIsomorphicLayoutEffect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/useIsomorphicLayoutEffect.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/verifyPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/lib/utils/wrapActionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/alternate-renderers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/components/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/components/Provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/components/connectAdvanced.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/connect/connect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/connect/mapDispatchToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/connect/mapStateToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/connect/mergeProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/connect/selectorFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/connect/verifySubselectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/connect/wrapMapToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/hooks/useDispatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/hooks/useReduxContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/hooks/useSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/hooks/useStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/Subscription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/isPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/reactBatchedUpdates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/reactBatchedUpdates.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/shallowEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/useIsomorphicLayoutEffect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/useIsomorphicLayoutEffect.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/verifyPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/node_modules/react-redux/src/utils/wrapActionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/src/store/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/src/store/actions/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/src/store/reducers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/src/store/utility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/gui/src/containers/Signup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../frontend/gui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../frontend/gui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djreact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djreact/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djreact/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djreact/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/containers/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/containers/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/containers/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/store/actions/auth.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../frontend/gui" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -180,6 +102,8 @@
       <workItem from="1573391074123" duration="776000" />
       <workItem from="1573396432044" duration="790000" />
       <workItem from="1573633718250" duration="616000" />
+      <workItem from="1574679180325" duration="1428000" />
+      <workItem from="1574742737299" duration="3750000" />
     </task>
     <servers />
   </component>
