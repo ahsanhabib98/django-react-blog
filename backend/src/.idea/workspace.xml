@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d433f79-d6a6-4653-addf-55f0f5883d49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../frontend/gui/src/containers/Signup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djreact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djreact/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djreact/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djreact/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/containers/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/containers/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/containers/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../frontend/gui/src/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/gui/src/store/actions/auth.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +94,8 @@
       <workItem from="1573396432044" duration="790000" />
       <workItem from="1573633718250" duration="616000" />
       <workItem from="1574679180325" duration="1428000" />
-      <workItem from="1574742737299" duration="3750000" />
+      <workItem from="1574742737299" duration="3809000" />
+      <workItem from="1574844865045" duration="1658000" />
     </task>
     <servers />
   </component>
