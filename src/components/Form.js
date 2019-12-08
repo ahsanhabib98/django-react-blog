@@ -3,11 +3,17 @@ import { Form, Input, Button } from 'antd';
 import TextArea from "antd/es/input/TextArea";
 
 import axios from 'axios';
+import {connect} from "react-redux";
 
 class CustomForm extends React.Component {
     handleFormSubmit = (event, requestType, articleID) => {
         const title = event.target.elements.title.value;
         const content = event.target.elements.content.value;
+
+        axios.defaults.headers = {
+            "Content-Type": "application/json",
+            Authorization: this.props.token
+        }
         
         switch ( requestType ) {
             case 'post':
@@ -24,8 +30,6 @@ class CustomForm extends React.Component {
                 })
                     .then(res => console.log(res))
                     .catch(error => console.err(error));
-            default:
-                return false
         }
     }
 
@@ -54,4 +58,10 @@ class CustomForm extends React.Component {
   }
 }
 
-export default CustomForm;
+const mapStateToProps = state => {
+    return {
+        token: state.token
+    }
+}
+
+export default connect(mapStateToProps)(CustomForm);
