@@ -9,20 +9,24 @@ class ArticleList extends React.Component {
 
     state = {
         articles: []
+    };
+
+    fetchArticles = () => {
+        axios.get(' http://127.0.0.1:8000/api/')
+            .then(res => {
+                this.setState({
+                    articles: res.data
+                });
+            });
+    }
+
+    componentDidMount() {
+        this.fetchArticles();
     }
 
     componentWillReceiveProps(newProps) {
         if (newProps.token) {
-            axios.defaults.headers = {
-                "Content-Type": "application/json",
-                Authorization: newProps.token
-            }
-            axios.get(' http://127.0.0.1:8000/api/')
-                .then(res => {
-                    this.setState({
-                        articles: res.data
-                    });
-                })
+            this.fetchArticles();
         }
     }
 

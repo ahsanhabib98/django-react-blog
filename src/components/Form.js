@@ -6,32 +6,37 @@ import axios from 'axios';
 import {connect} from "react-redux";
 
 class CustomForm extends React.Component {
-    handleFormSubmit = (event, requestType, articleID) => {
-        const title = event.target.elements.title.value;
-        const content = event.target.elements.content.value;
+    handleFormSubmit = async (event, requestType, articleID) => {
+        event.preventDefault();
 
+        const postObj = {
+            title: event.target.elements.title.value,
+            content: event.target.elements.content.value
+        }
+
+        axios.defaults.xsrfHeaderName = "X-CSRFTOKEN";
+        axios.defaults.xsrfCookieName = "csrftoken";
         axios.defaults.headers = {
             "Content-Type": "application/json",
-            Authorization: this.props.token
-        }
+            Authorization: `Token ${this.props.token}`,
+        };
         
-        switch ( requestType ) {
-            case 'post':
-                return axios.post('http://127.0.0.1:8000/api/', {
-                    title: title,
-                    content: content
+        if ( requestType === "post" ) {
+            await axios.post("http://127.0.0.1:8000/api/create/", postObj)
+                .then(res => {
+                 if (res.status === 201) {
+                     this.props.history.push(`/`);
+                 }
                 })
-                    .then(res => console.log(res))
-                    .catch(error => console.err(error));
-            case 'put':
-                return axios.put(`http://127.0.0.1:8000/api/${articleID}/`, {
-                    title: title,
-                    content: content
+        } else if ( requestType === "put" ) {
+            await axios.put(`http://127.0.0.1:8000/api/${articleID}/update/`, postObj)
+                .then(res => {
+                 if (res.status === 200) {
+                     this.props.history.push(`/`);
+                 }
                 })
-                    .then(res => console.log(res))
-                    .catch(error => console.err(error));
         }
-    }
+    };
 
     // handleChange(event) {
     //     this.setState({
