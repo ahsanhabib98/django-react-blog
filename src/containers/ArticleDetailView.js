@@ -53,12 +53,15 @@ class ArticleDetail extends React.Component {
                 <Card title={this.state.article.title}>
                     <p>{this.state.article.content}</p>
                 </Card>
+
                 <CustomForm
                     {...this.props}
                     token={this.props.token}
                     requestType="put"
                     articleID={this.props.match.params.articleID}
                     binText="Update"
+                    title={this.state.article.title}
+                    content={this.state.article.content}
                 />
                 <form onSubmit={this.handleDelete}>
                     <Button type="danger" htmlType="submit">Delete</Button>

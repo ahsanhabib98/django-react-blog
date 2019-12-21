@@ -6,6 +6,16 @@ import axios from 'axios';
 import {connect} from "react-redux";
 
 class CustomForm extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            title: this.props.title,
+            content: this.props.content
+        }
+    }
+
+
+
     handleFormSubmit = async (event, requestType, articleID) => {
         event.preventDefault();
 
@@ -38,34 +48,42 @@ class CustomForm extends React.Component {
         }
     };
 
-    // handleChange(event) {
-    //     this.setState({
-    //         [event.target.name]: event.target.value
-    //     });
-    // }
+    handleChangeTitle = (event) =>  {
+        this.setState({title: event.target.value});
+    }
+    handleChangeContent = (event) => {
+        this.setState({content: event.target.value});
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if((this.props.title && this.props.content) && (!this.state.title && !this.state.content)){
+            this.setState({title: this.props.title});
+            this.setState({content: this.props.content});
+        }
+    }
 
     render() {
-    return (
-      <div>
-        <Form onSubmit={(event) => this.handleFormSubmit(event, this.props.requestType, this.props.articleID )}>
-          <Form.Item label="Title" >
-            <Input type="text" name="title" placeholder="Put a title here" />
-          </Form.Item>
-          <Form.Item label="Content">
-            <TextArea type="text" name="content" placeholder="Enter some content ..." />
-          </Form.Item>
-          <Form.Item>
-            <Button type="primary" htmlType="submit">{this.props.binText}</Button>
-          </Form.Item>
-        </Form>
-      </div>
-    );
+        return (
+          <div>
+            <Form onSubmit={(event) => this.handleFormSubmit(event, this.props.requestType, this.props.articleID )}>
+              <Form.Item label="Title" >
+                <Input value={this.state.title} onChange={this.handleChangeTitle} type="text" name="title" placeholder="Put a title here" />
+              </Form.Item>
+              <Form.Item label="Content">
+                <TextArea value={this.state.content} onChange={this.handleChangeContent} type="text" name="content" placeholder="Enter some content ..." />
+              </Form.Item>
+              <Form.Item>
+                <Button type="primary" htmlType="submit">{this.props.binText}</Button>
+              </Form.Item>
+            </Form>
+          </div>
+        );
   }
 }
 
 const mapStateToProps = state => {
     return {
-        token: state.token
+        token: state.token,
     }
 }
 
