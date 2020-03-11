@@ -1,4 +1,4 @@
-# Django + React CRUD
+# Django + React BLOG
 
 Run the following commands to get started:
 
